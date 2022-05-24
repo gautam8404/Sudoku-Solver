@@ -2,7 +2,7 @@
 A simple Sudoku Solver written in C by using raylib
 
 
-#Requirements
+# Requirements
 
 This program uses raylib for ui so it needs to be installed and included during compiling
 
@@ -15,6 +15,7 @@ Windows:- [here](https://raysan5.itch.io/raylib/download/eyJleHBpcmVzIjoxNjUzMjY
 
 use `gcc sudoku_solver.c -o sudoku_solver -lraylib` to compile
 
+# Note
 
 .C file won't work in windows as raylib.h and windows.h collide because of having functions with same name, windows users can try .cpp file but make sure they have C++ 11 >=
 
