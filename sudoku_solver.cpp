@@ -31,18 +31,8 @@ int grid[N][N] = {{3, 0, 6, 5, 0, 8, 4, 0, 0},
                   {0, 0, 0, 0, 0, 0, 0, 7, 4},
                   {0, 0, 5, 2, 0, 6, 3, 0, 0}};
 
-void print()
-{
-    for (int i = 0; i < N; i++)
-    {
-        for (int j = 0; j < N; j++)
-        {
-            
-            printf("%d", grid[i][j]);
-        }
-        printf("\n");
-    }
-}
+
+
 
 int possible(int x, int y, int n)
 {
