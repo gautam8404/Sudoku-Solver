@@ -13,7 +13,9 @@ https://www.raylib.com/
 Linux:- Download from [here](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux)
 
 
-use `gcc sudoku_solver.c -o sudoku_solver -lraylib` to compile
+use 
+
+```gcc sudoku_solver.c -o sudoku_solver -lraylib``` to compile
 
 
 # Windows 
@@ -23,4 +25,6 @@ Windows:- Download from [here](https://raysan5.itch.io/raylib/download/eyJleHBpc
 
 .C file won't work in windows as raylib.h and windows.h collide because of having functions with same name, windows users can try .cpp file but make sure they have C++ 11 >=
 
-to compile cpp file use `g++ sudoku_solver.cpp -o sudoku_solver -lraylib`
+to compile cpp file use 
+
+```g++ -std=c++11 sudoku_solver.cpp -o sudoku_solver -lraylib```
